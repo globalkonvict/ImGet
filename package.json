@@ -1,0 +1,19 @@
+{
+  "name": "imget",
+  "version": "1.0.0",
+  "description": "A CLI app that downloads images from provided keyword.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "imget": "./app.js"
+  },
+  "author": "sarthak",
+  "license": "ISC",
+  "dependencies": {
+    "image-downloader": "^3.5.0",
+    "nightmare": "^3.0.2",
+    "vo": "^4.0.2"
+  }
+}
