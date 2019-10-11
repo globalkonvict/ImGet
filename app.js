@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
 const vo = require('vo'),
-	fs = require('fs'),
-	download = require('image-downloader'),
-	nightmare = require('nightmare')({ show: false, executionTimeout: 3000 }),
-	path = process.cwd() + '/download',
-	searchTerm = process.argv[2],
-	nImg = process.argv[3],
-	imageUrl = [];
+	  fs = require('fs'),
+	  download = require('image-downloader'),
+	  nightmare = require('nightmare')({ show: false, executionTimeout: 3000 }),
+	  path = process.cwd() + '/download',
+	  searchTerm = process.argv[2],
+	  nImg = process.argv[3],
+	  imageUrl = [];
 
 
 fs.mkdir('download', err => err? console.log('download folder exists') : console.log('download folder created'));
@@ -27,7 +27,7 @@ vo(run)(function(err, result) {
 
 function* run() {
 
-	let MAX_IMG =nImg;
+	let MAX_IMG =nImg || 200;
 		currentPage = 0,
 		nextExists = true;
 
