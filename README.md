@@ -11,6 +11,10 @@ A CLI tool that downloads images using user provided keyword.
  - Run command `npm install` to install dependencies
  - Run `npm link`
  - In the terminal run command `imget nature 10` to test
+ 
+**Using npm (Recommended)**
+
+      npm i imget
 
 **Uses**
 
