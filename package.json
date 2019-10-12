@@ -1,8 +1,13 @@
 {
-  "name": "ImGet",
-  "version": "1.0.0",
+  "name": "imget",
+  "version": "1.0.1",
   "description": "A CLI app that downloads images from provided keyword.",
   "main": "app.js",
+  "home": "https://github.com/SarthakDwivedi/ImGet/blob/master/README.md",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/SarthakDwivedi/ImGet"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm link"
